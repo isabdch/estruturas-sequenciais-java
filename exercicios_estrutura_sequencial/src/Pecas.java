@@ -7,16 +7,14 @@ public class Pecas {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int codigo_1, codigo_2, quantidade_1, quantidade_2, quantidade_total;
+		int quantidade_1, quantidade_2, quantidade_total;
 		double valor_1, valor_2, valor_total;
 
-		System.out.println("Informe o código, a quantidade e o valor unitário de um primeiro tipo de peça:");
-		codigo_1 = sc.nextInt();
+		System.out.println("Informe a quantidade e o valor unitário de um primeiro tipo de peça:");
 		quantidade_1 = sc.nextInt();
 		valor_1 = sc.nextDouble();
 		
-		System.out.println("Agora, informe o código, a quantidade e o valor unitário de um segundo tipo de peça:");
-		codigo_2 = sc.nextInt();
+		System.out.println("Agora, informe a quantidade e o valor unitário de um segundo tipo de peça:");
 		quantidade_2 = sc.nextInt();
 		valor_2 = sc.nextDouble();
 		
